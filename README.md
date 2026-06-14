@@ -5,6 +5,22 @@ Ein interaktiver, musikgesteuerter Mandala-Generator in C# WinForms.
 Das Projekt kombiniert rekursive Fraktal-/Mandala-Generierung mit Echtzeit-Audioanalyse über NAudio. Die erzeugten Mandalas reagieren dynamisch auf Bass-Frequenzen und Beat-Erkennung (Kick Detection) und erzeugen visuelle Effekte synchron zur Musik.
 
 ---
+## 🎨 Bilder
+<p align="center">
+  <img src="https://github.com/peppe960422/MandalaGenerator/blob/4bb6f40101c0763b9de7c80b8943ed816429b0df/AssetDemo/ezgif-3f7b4c9641201b24.gif"">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/peppe960422/MandalaGenerator/master/assets/demo.gif">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/peppe960422/MandalaGenerator/master/assets/demo.gif">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/peppe960422/MandalaGenerator/master/assets/demo.gif">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/peppe960422/MandalaGenerator/master/assets/demo.gif">
+</p>
 
 ## ✨ Features
 
