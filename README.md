@@ -10,16 +10,16 @@ Das Projekt kombiniert rekursive Fraktal-/Mandala-Generierung mit Echtzeit-Audio
   <img src="https://github.com/peppe960422/MandalaGenerator/blob/4bb6f40101c0763b9de7c80b8943ed816429b0df/AssetDemo/ezgif-3f7b4c9641201b24.gif"">
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/peppe960422/MandalaGenerator/master/assets/demo.gif">
+  <img src="https://github.com/peppe960422/MandalaGenerator/blob/master/AssetDemo/ezgif-3616c3abb96002d9.gif">
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/peppe960422/MandalaGenerator/master/assets/demo.gif">
+  <img src="https://github.com/peppe960422/MandalaGenerator/blob/master/AssetDemo/ezgif-37be535201e94061.gif">
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/peppe960422/MandalaGenerator/master/assets/demo.gif">
+  <img src="https://github.com/peppe960422/MandalaGenerator/blob/master/AssetDemo/ezgif-382204ad1feee255.gif">
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/peppe960422/MandalaGenerator/master/assets/demo.gif">
+  <img src="https://github.com/peppe960422/MandalaGenerator/blob/master/AssetDemo/ezgif-342e9fcfdf32d716.gif">
 </p>
 
 ## ✨ Features
