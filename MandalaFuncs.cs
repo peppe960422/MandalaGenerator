@@ -9,6 +9,8 @@ namespace MandalaGenerator
     public enum TypeOfMandalaMovement { Const, Random }
 
     public enum TypeOfMusicAnimation { Normal, Explode }
+
+    public enum TypeOfSchemaAnimation { Single , Triple , Five }
     public enum TypeOfMandalaGeneretionalProgress { Const, Prograssive, Regressive, Random, Div2, GenerationDependent, SinWave, Explosion, Organic, SpiralGrowth, Fibonacci, HeartBeat }
     class MandalaFuncs
     {
@@ -17,14 +19,32 @@ namespace MandalaGenerator
         public static Func<int, int, int>[] ChildrenFunc = { ConstantChildren, IncreasingLinear, DecreasingLinear, RandomChilds, Divide2Incareasing, GenerationDependent, SinWave, Explosion, Organic, SpiralGrowth, Fibonacci, HeartBeat };
         public static Action<Graphics, MandalaPoint, float, Func<double, double, double, Color>>[] DrawingStrategies =
             {DrawNormal,DrawExplode };
+        public static Func< int , int ,Point[] >[] SchemaStrategies = { SingleSchema, TripleSchema, FiveSchema };
 
+        private static Point[] FiveSchema( int height, int width)
+        {
+            return new Point[] { new Point(width / 4, height / 4), new Point((width / 4) * 3, height / 4),
+                                 new Point (width / 4, (height / 4)*3), new Point((width / 4) * 3, (height / 4)*3), 
+                                 new Point(width / 2, height / 2) };
+        }
+
+        private static Point[] TripleSchema(int height , int width )
+        {
+            return new Point[] { new Point(width / 4, height / 2), new Point((width / 4 )*3, height / 2), new Point(width / 2, height / 2) };
+        }
+
+        private static Point[] SingleSchema( int height, int width)
+        {
+            return new Point[] { new Point(width / 2, height / 2) };
+        }
 
         static Random rnd = new Random();
         static public void DrawNormal(Graphics g, MandalaPoint point, float time,
             Func<double, double, double, Color> colorFunc)
         {
             double hue = (time * 40 + point.depth * 30) % 360;
-            double v = MandalaPoint.GlobalBass * 2;
+            double v = MandalaPoint.GlobalBass * 2 + 0.3    
+                ;
             if (v > 1) { v = 1; }
             Color c = colorFunc(hue, 1, v);
 

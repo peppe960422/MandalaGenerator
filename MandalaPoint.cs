@@ -8,7 +8,7 @@ namespace MandalaGenerator
 {
     class MandalaPoint
     {
-        public static float GlobalBass;
+        public static float GlobalBass { get; set; } 
         public static float KickFlash;
         public List<MandalaPoint> Childs = new List<MandalaPoint>();
 
